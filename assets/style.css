@@ -1,0 +1,47 @@
+/* style.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title styling */
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Sidebar styling */
+.stSidebar {
+    background-color: #2e3b4e;
+}
+
+.stSidebar > div:first-child {
+    color: #fff;
+    padding: 20px;
+}
+
+.stSidebar select {
+    color: #333;
+}
+
+/* Main content styling */
+.stApp {
+    padding: 20px;
+}
+
+/* Plotly graph styling */
+.plotly-graph-div {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Show raw data checkbox styling */
+.stCheckbox {
+    margin: 20px 0;
+}
